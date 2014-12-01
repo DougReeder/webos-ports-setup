@@ -99,7 +99,7 @@ update-conffiles:
 	  cp common/conf/bblayers.conf ${SETUP_DIR}/conf/bblayers.conf; \
 	  cp common/conf/layers.txt ${SETUP_DIR}/conf/layers.txt; \
 	  cp common/conf/site.conf ${SETUP_DIR}/conf/site.conf; \
-	  cp common/scripts/* scripts/; \
+	  cp -ra common/scripts/* scripts/; \
 	)
 
 # End of Makefile
